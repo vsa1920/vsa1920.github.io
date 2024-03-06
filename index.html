@@ -32,8 +32,8 @@
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
 						<div class="content">
 							<h2>Short Bio</h2>
-							<p>Hello, I am doing my Master's in Scientific Computing at UPenn. I am a research enthusiast and and my interests lie in Scientific Machine Learning. I am excited to apply AI to solve problems in Science and Engineering. Currently, I am looking for opportunities in the Industry to get some valuable work experience and exposure. 
-								I also enjoy playing guitar, watching anime and video games.						<ul class="actions stacked">
+							<p>Hello, I am doing my Master's in Scientific Computing at UPenn. I am a research enthusiast, and my interests lie in Scientific Machine Learning. However, I have been exploring more of NLP and LLMs and their use in solving problems. I am excited to apply AI to solve problems in Science and Engineering. Currently, I am looking for opportunities in the Industry to get some valuable work experience and exposure. 
+                                I also enjoy playing guitar and watching anime and video games.						<ul class="actions stacked">
 								<li><a href="https://www.linkedin.com/in/vaibhav-sahu-64802a1b4/" class="button">Learn More</a></li>
 							</ul>
 						</div>
@@ -45,15 +45,27 @@
 
 
 				<!-- Three -->
-					
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
+							<h2>My Projects</h2>
+							<h3>Playing Hangman with Transformers</h3>
+							<p>Hangman is a very complex problem to tackle. Apart from having extensive knowledge of words, it also relies on being able to guess letters based on phonetics and rules around the sub-words of a language, albeit doing it within a specific number of tries. In this project, I trained a Google CANINE-s character level LLM from scratch on hangman states generated from 200k words and encoded as text for the model to learn. I was able to achieve an accuracy of 46% game-winning accuracy with 6 wrong guesses. I then further fine-tuned the model by making it play and learn from its own mistakes on the training data to achieve 56% accuracy with 6 tries and 83% accuracy with 10 tries. A demo can be found <a href="https://colab.research.google.com/drive/19659EGCFgFhFrYRVabubICFo7uBg6YSY">here</a>.<ul class="actions stacked">
+								</ul>
+						</div>
+						<div class="img_thumb">
+							<p></p><br>
+							<br>
+							<br>
+							<br>
+							<img src="images/hangman.png" alt="" style="width:500px;height:auto;"/>
+						</div>
+					</section>
+
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
 							<h2>My Projects</h2>
 							<h3>Extracting Lexical Stylistic Notions From Words Using LLMs</h3>
 							<p>Word embeddings from Large Language Models can be used in several tasks, from sentiment analysis to textual style transfer and finding synonyms in other contexts. This project aimed to use BERT word embeddings to characterize the complexity and formality level of given words and documents. We do this using the implementation from Lyu et al. and expanding upon it by including anisotropy reduction through k-means clustering, fine-tuning BERT models to perform the same task, and using other similarity metrics to perform the task. Our results show that reducing anisotropy through k-means clustering improves performance. We also implement new similarity metrics to improve performance over cosine similarity for some features and fine-tune BERT models to perform the same task at the document level.</p>
-								<ul class="actions stacked">
-									<li><a href="https://github.com/vsa1920/Expanding-on-Lexical-Stylistic-Features-Clustered" class="button">Learn More</a></li>
-								</ul>
 						</div>
 						<div class="img_thumb">
 							<p></p><br>
