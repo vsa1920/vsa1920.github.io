@@ -71,6 +71,23 @@
 
 					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
 						<div class="content">
+							<h3>ViTAR - Vision Transformer with Any Resolution</h3>
+							<p>Implemented ViTAR, a novel Vision Transformer architecture that addresses the resolution scalability challenge in ViTs. The key innovations include a dynamic resolution adjustment module with a single Transformer block for efficient incremental token integration, and fuzzy positional encoding that provides consistent positional awareness across multiple resolutions. The implementation achieves impressive results: 83.3% top-1 accuracy at 1120x1120 resolution and 80.4% accuracy at 4032x4032 resolution, while reducing computational costs. The model also demonstrates strong performance in downstream tasks like instance and semantic segmentation, and can be easily combined with self-supervised learning techniques like Masked AutoEncoder.</p>
+							<ul class="actions stacked">
+								<li><a href="https://github.com/vsa1920/ViTAR-Vision-Transformer-with-Any-Resolution" class="button">View Project</a></li>
+							</ul>
+						</div>
+						<div class="img_thumb">
+							<p></p><br>
+							<br>
+							<br>
+							<br>
+							<img src="images/ViTAR-model.png" alt="ViTAR Architecture" style="width:500px;height:auto;"/>
+						</div>
+					</section>
+
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in">
+						<div class="content">
 							<h3>Playing Hangman with Transformers</h3>
 							<p>Hangman is a very complex problem to tackle. Apart from having extensive knowledge of words, it also relies on being able to guess letters based on phonetics and rules around the sub-words of a language, albeit doing it within a specific number of tries. In this project, I trained a Google CANINE-s character level LLM from scratch on hangman states generated from 380k words and encoded as text for the model to learn. I was able to achieve an accuracy of 56% game-winning accuracy with 6 wrong guesses. I then further fine-tuned the model by making it play and learn from its own mistakes on the training data to achieve 63% accuracy with 6 tries and 86% accuracy with 10 tries. A demo can be found <a href="https://colab.research.google.com/drive/19659EGCFgFhFrYRVabubICFo7uBg6YSY">here</a>.</p>
 							<ul class="actions stacked">
@@ -151,6 +168,7 @@
 						</div>
 					</section>
 
+					
 
 				<!-- Four -->
 					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in">
